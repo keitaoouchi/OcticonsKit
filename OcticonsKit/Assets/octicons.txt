@@ -1,0 +1,343 @@
+alert:before { content:"\f02d"; }
+
+arrow-down:before { content:"\f03f"; }
+
+arrow-left:before { content:"\f040"; }
+
+arrow-right:before { content:"\f03e"; }
+
+arrow-small-down:before { content:"\f0a0"; }
+
+arrow-small-left:before { content:"\f0a1"; }
+
+arrow-small-right:before { content:"\f071"; }
+
+arrow-small-up:before { content:"\f09f"; }
+
+arrow-up:before { content:"\f03d"; }
+
+beaker:before { content:"\f0dd"; }
+
+bell:before { content:"\f0de"; }
+
+bold:before { content:"\f0e2"; }
+
+book:before { content:"\f007"; }
+
+bookmark:before { content:"\f07b"; }
+
+briefcase:before { content:"\f0d3"; }
+
+broadcast:before { content:"\f048"; }
+
+browser:before { content:"\f0c5"; }
+
+bug:before { content:"\f091"; }
+
+calendar:before { content:"\f068"; }
+
+check:before { content:"\f03a"; }
+
+checklist:before { content:"\f076"; }
+
+chevron-down:before { content:"\f0a3"; }
+
+chevron-left:before { content:"\f0a4"; }
+
+chevron-right:before { content:"\f078"; }
+
+chevron-up:before { content:"\f0a2"; }
+
+circle-slash:before { content:"\f084"; }
+
+circuit-board:before { content:"\f0d6"; }
+
+clippy:before { content:"\f035"; }
+
+clock:before { content:"\f046"; }
+
+cloud-download:before { content:"\f00b"; }
+
+cloud-upload:before { content:"\f00c"; }
+
+code:before { content:"\f05f"; }
+
+comment-discussion:before { content:"\f04f"; }
+
+comment:before { content:"\f02b"; }
+
+credit-card:before { content:"\f045"; }
+
+dash:before { content:"\f0ca"; }
+
+dashboard:before { content:"\f07d"; }
+
+database:before { content:"\f096"; }
+
+desktop-download:before { content:"\f0dc"; }
+
+device-camera-video:before { content:"\f057"; }
+
+device-camera:before { content:"\f056"; }
+
+device-desktop:before { content:"\f27c"; }
+
+device-mobile:before { content:"\f038"; }
+
+diff-added:before { content:"\f06b"; }
+
+diff-ignored:before { content:"\f099"; }
+
+diff-modified:before { content:"\f06d"; }
+
+diff-removed:before { content:"\f06c"; }
+
+diff-renamed:before { content:"\f06e"; }
+
+diff:before { content:"\f04d"; }
+
+ellipses:before { content:"\f101"; }
+
+ellipsis:before { content:"\f09a"; }
+
+eye:before { content:"\f04e"; }
+
+file-binary:before { content:"\f094"; }
+
+file-code:before { content:"\f010"; }
+
+file-directory:before { content:"\f016"; }
+
+file-media:before { content:"\f012"; }
+
+file-pdf:before { content:"\f014"; }
+
+file-submodule:before { content:"\f017"; }
+
+file-symlink-directory:before { content:"\f0b1"; }
+
+file-symlink-file:before { content:"\f0b0"; }
+
+file-text:before { content:"\f011"; }
+
+file-zip:before { content:"\f013"; }
+
+file:before { content:"\f102"; }
+
+flame:before { content:"\f0d2"; }
+
+fold:before { content:"\f0cc"; }
+
+gear:before { content:"\f02f"; }
+
+gift:before { content:"\f042"; }
+
+gist-secret:before { content:"\f08c"; }
+
+gist:before { content:"\f00e"; }
+
+git-branch:before { content:"\f020"; }
+
+git-commit:before { content:"\f01f"; }
+
+git-compare:before { content:"\f0ac"; }
+
+git-merge:before { content:"\f023"; }
+
+git-pull-request:before { content:"\f009"; }
+
+globe:before { content:"\f0b6"; }
+
+grabber:before { content:"\f103"; }
+
+graph:before { content:"\f043"; }
+
+heart:before { content:"\2665"; }
+
+history:before { content:"\f07e"; }
+
+home:before { content:"\f08d"; }
+
+horizontal-rule:before { content:"\f070"; }
+
+hubot:before { content:"\f09d"; }
+
+inbox:before { content:"\f0cf"; }
+
+info:before { content:"\f059"; }
+
+issue-closed:before { content:"\f028"; }
+
+issue-opened:before { content:"\f026"; }
+
+issue-reopened:before { content:"\f027"; }
+
+italic:before { content:"\f0e4"; }
+
+jersey:before { content:"\f019"; }
+
+key:before { content:"\f049"; }
+
+keyboard:before { content:"\f00d"; }
+
+law:before { content:"\f0d8"; }
+
+light-bulb:before { content:"\f000"; }
+
+link-external:before { content:"\f07f"; }
+
+link:before { content:"\f05c"; }
+
+list-ordered:before { content:"\f062"; }
+
+list-unordered:before { content:"\f061"; }
+
+location:before { content:"\f060"; }
+
+lock:before { content:"\f06a"; }
+
+logo-gist:before { content:"\f0ad"; }
+
+logo-github:before { content:"\f092"; }
+
+mail-read:before { content:"\f03c"; }
+
+mail-reply:before { content:"\f051"; }
+
+mail:before { content:"\f03b"; }
+
+mark-github:before { content:"\f00a"; }
+
+markdown:before { content:"\f0c9"; }
+
+megaphone:before { content:"\f077"; }
+
+mention:before { content:"\f0be"; }
+
+milestone:before { content:"\f075"; }
+
+mirror:before { content:"\f024"; }
+
+mortar-board:before { content:"\f0d7"; }
+
+mute:before { content:"\f080"; }
+
+no-newline:before { content:"\f09c"; }
+
+octoface:before { content:"\f008"; }
+
+organization:before { content:"\f037"; }
+
+package:before { content:"\f0c4"; }
+
+paintcan:before { content:"\f0d1"; }
+
+pencil:before { content:"\f058"; }
+
+person:before { content:"\f018"; }
+
+pin:before { content:"\f041"; }
+
+plug:before { content:"\f0d4"; }
+
+plus-small:before { content:"\f104"; }
+
+plus:before { content:"\f05d"; }
+
+primitive-dot:before { content:"\f052"; }
+
+primitive-square:before { content:"\f053"; }
+
+pulse:before { content:"\f085"; }
+
+question:before { content:"\f02c"; }
+
+quote:before { content:"\f063"; }
+
+radio-tower:before { content:"\f030"; }
+
+reply:before { content:"\f105"; }
+
+repo-clone:before { content:"\f04c"; }
+
+repo-force-push:before { content:"\f04a"; }
+
+repo-forked:before { content:"\f002"; }
+
+repo-pull:before { content:"\f006"; }
+
+repo-push:before { content:"\f005"; }
+
+repo:before { content:"\f001"; }
+
+rocket:before { content:"\f033"; }
+
+rss:before { content:"\f034"; }
+
+ruby:before { content:"\f047"; }
+
+search:before { content:"\f02e"; }
+
+server:before { content:"\f097"; }
+
+settings:before { content:"\f07c"; }
+
+shield:before { content:"\f0e1"; }
+
+sign-in:before { content:"\f036"; }
+
+sign-out:before { content:"\f032"; }
+
+smiley:before { content:"\f0e7"; }
+
+squirrel:before { content:"\f0b2"; }
+
+star:before { content:"\f02a"; }
+
+stop:before { content:"\f08f"; }
+
+sync:before { content:"\f087"; }
+
+tag:before { content:"\f015"; }
+
+tasklist:before { content:"\f0e5"; }
+
+telescope:before { content:"\f088"; }
+
+terminal:before { content:"\f0c8"; }
+
+text-size:before { content:"\f0e3"; }
+
+three-bars:before { content:"\f05e"; }
+
+thumbsdown:before { content:"\f0db"; }
+
+thumbsup:before { content:"\f0da"; }
+
+tools:before { content:"\f031"; }
+
+trashcan:before { content:"\f0d0"; }
+
+triangle-down:before { content:"\f05b"; }
+
+triangle-left:before { content:"\f044"; }
+
+triangle-right:before { content:"\f05a"; }
+
+triangle-up:before { content:"\f0aa"; }
+
+unfold:before { content:"\f039"; }
+
+unmute:before { content:"\f0ba"; }
+
+unverified:before { content:"\f0e8"; }
+
+verified:before { content:"\f0e6"; }
+
+versions:before { content:"\f064"; }
+
+watch:before { content:"\f0e0"; }
+
+x:before { content:"\f081"; }
+
+zap:before { content:"\26a1"; }
