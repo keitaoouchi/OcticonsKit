@@ -51,5 +51,6 @@ keita.oouchi, keita.oouchi@gmail.com
 ## License
 
 [octicons.ttf](https://octicons.github.com/) file is licensed under [MIT license](https://github.com/primer/octicons/blob/master/LICENSE).
+When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
 
 OcticonsKit is available under the MIT license. See the LICENSE file for more info.
