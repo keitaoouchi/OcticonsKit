@@ -1,12 +1,15 @@
 # OcticonsKit
 
-[![CI Status](http://img.shields.io/travis/keitaoouchi/OcticonsKit.svg?style=flat)](https://travis-ci.org/keita.oouchi/OcticonsKit)
+[![CI Status](http://img.shields.io/travis/keitaoouchi/OcticonsKit.svg?style=flat)](https://travis-ci.org/keitaoouchi/OcticonsKit)
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
 [![License](https://img.shields.io/cocoapods/l/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
 [![Platform](https://img.shields.io/cocoapods/p/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
 
 <img src="https://raw.githubusercontent.com/keitaoouchi/OcticonsKit/master/Screenshots/sample.png" width="320px" />
+
+> OcticonsKit internally use octicons.ttf v4.3.0
 
 ## Example
 
@@ -37,12 +40,21 @@ Swift3.0 or later.
 
 ## Installation
 
-OcticonsKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+OcticonsKit is available through [CocoaPods](http://cocoapods.org) or [Carthage](https://github.com/Carthage/Carthage).
+
+### CocoaPods
 
 ```ruby
 pod "OcticonsKit"
 ```
+
+### Carthage
+
+```
+github "keitaoouchi/OcticonsKit"
+```
+
+for detail, please follow the [Carthage Instruction](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos)
 
 ## Author
 
