@@ -1,6 +1,6 @@
 # OcticonsKit
 
-[![CI Status](http://img.shields.io/travis/keitaoouchi/OcticonsKit.svg?style=flat)](https://travis-ci.org/keita.oouchi/OcticonsKit)
+[![CI Status](http://img.shields.io/travis/keitaoouchi/OcticonsKit.svg?style=flat)](https://travis-ci.org/keitaoouchi/OcticonsKit)
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
