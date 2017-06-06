@@ -1,6 +1,0 @@
-framework module OcticonsKit {
-  umbrella header "OcticonsKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
