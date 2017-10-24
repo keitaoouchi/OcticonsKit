@@ -1,5 +1,5 @@
 PODS:
-  - OcticonsKit (0.1.0)
+  - OcticonsKit (1.0.0)
 
 DEPENDENCIES:
   - OcticonsKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OcticonsKit: 730defefb3966b46e2be151aa1899702b5c5ed5c
+  OcticonsKit: 2c2376a163db893dff13ef12c341ca9a6de37edb
 
-PODFILE CHECKSUM: 847c6e7d9ee3667b37ec4fd25241f340e2ece0ab
+PODFILE CHECKSUM: '069dfddcd4f8fd7d30e3e93465a98501510d7783'
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.2.1

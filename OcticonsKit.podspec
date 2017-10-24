@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OcticonsKit'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'Octicons for Swift and Objective-C with type safed manner.'
   s.homepage         = 'https://github.com/keitaoouchi/OcticonsKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

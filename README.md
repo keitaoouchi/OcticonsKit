@@ -1,7 +1,7 @@
 # OcticonsKit
 
 [![CI Status](http://img.shields.io/travis/keitaoouchi/OcticonsKit.svg?style=flat)](https://travis-ci.org/keitaoouchi/OcticonsKit)
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
+[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
 [![License](https://img.shields.io/cocoapods/l/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
@@ -35,8 +35,10 @@ or build Example App.
 
 ## Requirements
 
-iOS 8 or later.
-Swift3.0 or later.
+| Target            | Version |
+|-------------------|---------|
+| iOS               |  => 8.0 |
+| Swift             |  => 4.0 |
 
 ## Installation
 
