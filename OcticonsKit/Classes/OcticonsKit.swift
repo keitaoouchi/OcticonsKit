@@ -26,7 +26,8 @@ public extension String {
   /// - parameter name: The preferred icon name.
   /// - returns: A string that will appear as icon with Octicons.
   public static func octicon(with name: Octicons) -> String {
-    return name.rawValue.substring(to: name.rawValue.characters.index(name.rawValue.startIndex, offsetBy: 1))
+    let substr = name.rawValue[..<name.rawValue.characters.index(name.rawValue.startIndex, offsetBy: 1)]
+    return String(substr)
   }
 
 }
