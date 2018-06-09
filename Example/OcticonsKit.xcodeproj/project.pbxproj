@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27868A4336C929690F6DAA75 /* Pods_OcticonsKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E4FCE181B97A883B417E32 /* Pods_OcticonsKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		6BE082EC4909A9412B64BDE4 /* libPods-OcticonsKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462EB58516FC2D37CA0C577 /* libPods-OcticonsKit_Example.a */; };
 		DE1C06631D8DA22C00DFB1B3 /* Octicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C06621D8DA22C00DFB1B3 /* Octicons.swift */; };
 		DE1C06651D8DA26400DFB1B3 /* OcticonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C06641D8DA26400DFB1B3 /* OcticonsTableViewController.swift */; };
 		DE1C06671D8DA27E00DFB1B3 /* OcticonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C06661D8DA27E00DFB1B3 /* OcticonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10E4FCE181B97A883B417E32 /* Pods_OcticonsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OcticonsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		310EECB58EB13C78683C4F92 /* Pods_OcticonsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OcticonsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39B5A2782B27BB0762C9426C /* OcticonsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OcticonsKit.podspec; path = ../OcticonsKit.podspec; sourceTree = "<group>"; };
+		39B5A2782B27BB0762C9426C /* OcticonsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OcticonsKit.podspec; path = ../OcticonsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3E4DA6345987312331923562 /* Pods-OcticonsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OcticonsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OcticonsKit_Example/Pods-OcticonsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OcticonsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcticonsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7462EB58516FC2D37CA0C577 /* libPods-OcticonsKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OcticonsKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C06621D8DA22C00DFB1B3 /* Octicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octicons.swift; sourceTree = "<group>"; };
 		DE1C06641D8DA26400DFB1B3 /* OcticonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcticonsTableViewController.swift; sourceTree = "<group>"; };
 		DE1C06661D8DA27E00DFB1B3 /* OcticonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcticonTableViewCell.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27868A4336C929690F6DAA75 /* Pods_OcticonsKit_Example.framework in Frameworks */,
+				6BE082EC4909A9412B64BDE4 /* libPods-OcticonsKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +113,8 @@
 		96A0A7A20F88B49C3BE9B61B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10E4FCE181B97A883B417E32 /* Pods_OcticonsKit_Example.framework */,
 				310EECB58EB13C78683C4F92 /* Pods_OcticonsKit_Tests.framework */,
+				7462EB58516FC2D37CA0C577 /* libPods-OcticonsKit_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,7 +130,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D6A0A774FF8FE44DA2F1D8DC /* [CP] Embed Pods Frameworks */,
 				58AFED3EB9E2EA16DDAD89E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -196,9 +195,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsKit_Example/Pods-OcticonsKit_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OcticonsKit/OcticonsKit.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OcticonsKit.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,25 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D6A0A774FF8FE44DA2F1D8DC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsKit_Example/Pods-OcticonsKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OcticonsKit/OcticonsKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OcticonsKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OcticonsKit_Example/Pods-OcticonsKit_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
