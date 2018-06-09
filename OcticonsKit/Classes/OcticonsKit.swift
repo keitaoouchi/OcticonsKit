@@ -81,15 +81,11 @@ public extension UIImage {
 private class FontLoader {
   class func load(_ name: String) {
     let bundle = Bundle(for: FontLoader.self)
-    let identifier = bundle.bundleIdentifier
-    var fontURL: URL
-    if identifier?.hasPrefix("org.cocoapods") == true {
-      fontURL = bundle.url(forResource: name, withExtension: "ttf", subdirectory: "OcticonsKit.bundle")!
-    } else {
-      fontURL = bundle.url(forResource: name, withExtension: "ttf")!
-    }
+    let fontURL: URL? =
+      bundle.url(forResource: name, withExtension: "ttf") ??
+      bundle.url(forResource: name, withExtension: "ttf", subdirectory: "OcticonsKit.bundle")
 
-    let data = try! Data(contentsOf: fontURL)
+    let data = try! Data(contentsOf: fontURL!)
 
     let provider = CGDataProvider(data: data as CFData)!
     let font = CGFont(provider)!
