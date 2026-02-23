@@ -1,7 +1,7 @@
 # OcticonsKit
 
 [![CI Status](http://img.shields.io/travis/keitaoouchi/OcticonsKit.svg?style=flat)](https://travis-ci.org/keitaoouchi/OcticonsKit)
-[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
 [![License](https://img.shields.io/cocoapods/l/OcticonsKit.svg?style=flat)](http://cocoapods.org/pods/OcticonsKit)
@@ -28,6 +28,12 @@ someLabel.text = String.octicon(with: .flame)
 someImageView.image = UIImage.octicon(with: .flame, textColor: UIColor.orange, size: CGSize(width: 18, height: 18))
 ```
 
+### octicons as SwiftUI View
+
+```swift
+Octicon(.flame, size: 18, color: .orange)
+```
+
 For another icons, plaease see the [source](https://github.com/keitaoouchi/OcticonsKit/blob/master/OcticonsKit/Classes/octicons.swift),
 or build Example App.
 
@@ -37,8 +43,8 @@ or build Example App.
 
 | Target            | Version |
 |-------------------|---------|
-| iOS               |  => 8.0 |
-| Swift             |  => 4.0 |
+| iOS               |  => 13.0 |
+| Swift             |  => 5.0 |
 
 ## Installation
 
